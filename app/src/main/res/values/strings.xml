@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Modulo03.P01.W04</string>
+
+    <string name="menuFavoritas">Favoritas</string>
+    <string name="menuContacto">Contacto</string>
+    <string name="menuAcercaDe">Acerca de</string>
+
+    <string name="txtNombre">Nombre</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtMensaje">Mensaje</string>
+    <string name="bEmail">Enviar comentario</string>
+
+    <string name="txtBiografia">Mi nombre es Manuel Quesada, soy de España y soy Ingeniero
+        Informático desde hace 12 años. Actualmente trabajo de desarrollador de software y
+        profesor en un instituto de enseñanza media.</string>
+
+
+    <string name="nombrePumy">Pummy</string>
+
+
+
+
+</resources>

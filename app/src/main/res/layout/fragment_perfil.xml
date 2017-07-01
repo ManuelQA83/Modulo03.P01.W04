@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.manuelqa.modulo03p01w04.InicioFrag">
+
+    <ImageView
+        android:id="@+id/fotoPumy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hamsters"
+        android:layout_gravity="center"
+        android:padding="0.5dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/txtPumy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombrePumy"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_gravity="center"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMascotas02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPumy"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"/>
+
+    </GridLayout>
+</LinearLayout>
