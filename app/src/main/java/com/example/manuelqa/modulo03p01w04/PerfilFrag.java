@@ -39,7 +39,7 @@ public class PerfilFrag extends Fragment {
         // Inflate the layout for this fragment
         View v =inflater.inflate(R.layout.fragment_perfil, container, false);
 
-        listaPerfil=(RecyclerView) v.findViewById(R.id.rvMascotas02);
+        listaPerfil= v.findViewById(R.id.rvMascotas02);
 
         GridLayoutManager llm = new GridLayoutManager(getActivity(),3);
 
@@ -47,15 +47,7 @@ public class PerfilFrag extends Fragment {
         listaPerfil.setLayoutManager(llm);
         inicializaAdaptadorPerfil();
 
-        //Imagen redondeada
-        Drawable originalDraw=getResources().getDrawable(R.drawable.hamsters);
-        Bitmap originalBitmap=((BitmapDrawable)originalDraw).getBitmap();
 
-        RoundedBitmapDrawable roundedDrawable= RoundedBitmapDrawableFactory.create(getResources(),originalBitmap);
-        roundedDrawable.setCornerRadius(originalBitmap.getHeight());
-
-        ImageView imageView=(ImageView) v.findViewById((R.id.fotoPumy));
-        imageView.setImageDrawable(roundedDrawable);
 
         return v;
     }

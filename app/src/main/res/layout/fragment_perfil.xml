@@ -5,13 +5,13 @@
     android:orientation="vertical"
     tools:context="com.example.manuelqa.modulo03p01w04.InicioFrag">
 
-    <ImageView
+
+    <com.mikhaellopez.circularimageview.CircularImageView
         android:id="@+id/fotoPumy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:src="@drawable/hamsters"
         android:layout_gravity="center"
-        android:padding="0.5dp"
         android:background="@color/colorPrimaryDark"/>
 
     <TextView
